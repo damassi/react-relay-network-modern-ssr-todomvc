@@ -4,7 +4,6 @@ import makeRouteConfig from 'found/lib/makeRouteConfig';
 import Route from 'found/lib/Route';
 import React from 'react';
 import { graphql } from 'react-relay';
-import { Environment, Network, RecordSource, Store } from 'relay-runtime';
 
 import TodoApp from './components/TodoApp';
 import TodoList from './components/TodoList';
