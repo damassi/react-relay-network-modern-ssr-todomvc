@@ -58,7 +58,7 @@
     "react-dom": "^16.3.2",
     "react-relay": "~1.5.0",
     "react-relay-network-modern": "^2.3.0",
-    "react-relay-network-modern-ssr": "^1.0.0",
+    "react-relay-network-modern-ssr": "^1.1.0",
     "regenerator-runtime": "^0.11.1",
     "relay-compiler": "~1.5.0",
     "relay-runtime": "~1.5.0",
