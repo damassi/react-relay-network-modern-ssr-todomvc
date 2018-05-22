@@ -16,9 +16,7 @@ const app = express();
 app.use('/graphql', graphQLHTTP({ schema }));
 
 const mountAndReload = createReloadable(app, require);
-mountAndReload(path.resolve(__dirname, './src'), {
-  watchModules: ['react-relay-network-modern-ssr'],
-});
+mountAndReload(path.resolve(__dirname, './src'));
 
 const webpackConfig = {
   mode: 'development',
